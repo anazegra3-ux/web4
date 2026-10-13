@@ -1,0 +1,56 @@
+/* Селектор тегу: загальний шрифт сторінки */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+/* Селектор тегу: усі абзаци по центру */
+p {
+    text-align: center;
+    line-height: 32px;
+}
+
+/* Селектор тегу: заголовок */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Селектор ідентифікатора: червоний заголовок з тінню */
+#title {
+    color: red;
+    text-shadow: 2px 2px 3px #999999;
+}
+
+/* Селектори класів */
+.subtitle {
+    font-style: italic;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.product {
+    font-weight: 700;
+}
+
+.optional {
+    background-color: yellow;
+    font-size: 16px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 22px;
+    color: #117a65;
+    word-spacing: 4px;
+}
+
+/* Селектор тегу: зелена лінія */
+hr {
+    width: 60%;
+    border: none;
+    border-top: 4px solid green;
+}
